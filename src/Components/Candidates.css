@@ -1,0 +1,96 @@
+/* src/components/Candidates.css */
+.candidates-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('/Users/SatyamPatidar/registration-app/src/Assets/vikram-chouhan-udaipur-7ujMIK4QajA-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .header {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for the header */
+    color: #fff;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .candidates-content {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly opaque white background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  .candidates-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .candidates-table th, .candidates-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .candidates-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .candidates-table tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .candidates-table tr:last-child {
+    border-bottom: none; /* Remove the border from the last row */
+  }
+  
+  .candidate-photo {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  .preview-btn {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .preview-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .aadhar-preview {
+    margin-top: 5px;
+  }
+  
+  .aadhar-card-img {
+    max-width: 100px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .export-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .export-btn:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,40 @@
+/* src/components/Navbar.css */
+.navbar {
+  background: lightseagreen; /* Semi-transparent background */
+  padding: 15px 25px; /* Increased padding for better spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slightly more pronounced shadow for depth */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-list li {
+  margin: 0 20px; /* Increased spacing between items */
+}
+
+.navbar-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions for effects */
+}
+
+.navbar-list a:hover {
+  color: #e0e0e0; /* Slightly lighter color on hover */
+  transform: scale(1.1); /* Slightly enlarged on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+.navbar-list a.active {
+  border-bottom: 2px solid #e0e0e0; /* Highlight active link with a bottom border */
+}
